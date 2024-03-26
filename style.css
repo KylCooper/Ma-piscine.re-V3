@@ -950,7 +950,12 @@ footer{
 /* ------------------------------------------ */
 
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 390px) {
+
+    .bloc-top{
+        width: 100%;
+        height: 200px;
+     }
 
 /* ------------------------------------------ */
 /* Homepage-responsive */
@@ -979,7 +984,7 @@ footer{
     }
     .homepage {
         height: 100vh; 
-        background-color: yellowgreen;
+
     }
     .article{
         width: 100%;
@@ -991,7 +996,7 @@ footer{
         width: 95%;
         height: 100%;
         align-items: center;
-        justify-content: space-between;
+        justify-content: space-around;
     }
     .left-article{
         width: 100%;
@@ -1003,6 +1008,7 @@ footer{
         width: 90%;
         font-size: 38px;
         font-weight: 900;
+        line-height: 50px;
     }
     .right-article-p{
         font-size: 14px;
@@ -1046,6 +1052,7 @@ footer{
         height: 213px;
         margin-top: 430px;
         margin-left: 250px;
+        display: none;
     }
     .right-article-btn{
         width: 85%;
@@ -1072,7 +1079,7 @@ footer{
 /* ------------------------------------------ */
  
 .forme{
-    height: 320vh;
+    height: 2500px; 
     overflow: hidden;
 } 
 
@@ -1147,13 +1154,13 @@ footer{
  
 
 .dimension{
-    height: 290vh;
+    height: 2100px; 
 }
 .dimension-ruler-title{
     font-size: 28px;
 }
 .dimension-ruler-container{
-    height: 32%;
+    height: 33%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1162,7 +1169,7 @@ footer{
     overflow: hidden;
 }
 .dimension-ruler-container-2{
-    height: 50%;
+    height: 56%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1212,14 +1219,12 @@ footer{
 /* ------------------------------------------ */
 /* Dimension-revetement */
 /* ------------------------------------------ */
- .bloc-top{
-    height: 40vh;
- }
+
 .revetement{
-    height: 320vh;
+    height: 2500px;
 }
 .R-container{
-    height: 95%;
+    height: 92%;
     width: 90%;
     flex-direction: column;
     justify-content: space-between;
@@ -1265,32 +1270,60 @@ footer{
 /* ------------------------------------------ */
 
 .options{
-    height: 320vh;
+    height: 2500px;
     overflow: hidden;
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
 }
 .O-container{
     flex-direction: column;
-    height: 100%;
-    flex-wrap: nowrap;
+    height: 90%;
     align-items: center;
+    display: flex;
+    justify-content: space-between;
 }
 .option-thumb{
     flex-direction: column;
+    align-items: center;
     width: 95%;
-    height: 470px;
+    height: 430px;
+}
+.R-title{
+    width: 100%;
+}
+.R-subText{
+    font-size: 12px;
 }
 .option-image-right{
-    height: 300px;
-    width: 300px;
+    height: 280px;
+    width: 280px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .O-img{
-    width: 200px;
-    height: 200px;
+    width:200px;
+    height:200px;
     margin-top: 40px;
+}
+.O-img-1{
+    width:200px;
+    height:200px;
+    margin-left: -20px;
+}
+.O-img-2{
+    width:180px;
+    height:200px;
+    margin: 0;
+}
+.O-img-3{
+    width:150px;
+    height:150px;
+    margin: 0;
 }
 .feuille-option-5{
     top: 80;
@@ -1311,11 +1344,11 @@ footer{
 /* Contact-responsive  */
 /* ------------------------------------------ */
 .contact{
-    height: 150vh;
+    height: 1200px;
 }
 .form-container{
     width: 100%;
-    height: 180%;
+    height: 85%;
     justify-content: space-between;
     margin: 0;
     overflow: hidden;
@@ -1335,12 +1368,12 @@ footer{
 .feuille-form-12{
     z-index: -1;
     margin-right: -100px;
-    margin-top: 270px;
+    margin-top: 390px;
 }
 .feuille-form-13{
     z-index: -1;
     margin-right: -200px;
-    margin-top: 455px;
+    margin-top: 600px;
 }
 .form-class{
     height: 100%;
@@ -1357,23 +1390,23 @@ footer{
     width: 100%;
 }
 .nom-input{
-    width: 280px;
-    font-size: 20px;
+    width: 250px;
+    font-size: 18px;
 }
 .email-input{
-    width: 280px;
-    font-size: 20px;
+    width: 250px;
+    font-size: 18px;
 }
 .adresse-input{
-    width: 280px;
-    font-size: 20px;
+    width: 250px;
+    font-size: 18px;
 }
 .tel-input{
-    width: 280px;
-    font-size: 20px;
+    width: 250px;
+    font-size: 18px;
 }
 .submit-btn{
-    width: 280px;
+    width: 250px;
     height: 65px;
     font-size: 20px;
 }
@@ -1387,10 +1420,11 @@ footer{
 /* ------------------------------------------ */
 
 .A-propos{
-    height: 120vh;
+    height: 1200px;
+
 }
 .a-container{
-    height: 100%;
+    height: 80%;
 }
 .a-card{
     height: 100%;
@@ -1445,7 +1479,8 @@ footer{
 /* Footer-responsive */
 /* ------------------------------------------ */
 footer{
-    height: 100vh;
+    height: 800px;
+
 }
 .footer-container{
     height: 90%;
@@ -1455,7 +1490,7 @@ footer{
 .footer-column-1{
     flex-direction: column;
     width: 100%;
-    height: 28vh;
+    height: 260px;
 }
 .column-1-container{
     flex-direction: column;
@@ -1488,7 +1523,8 @@ footer{
     width: 95%;
 }
 .mention-container{
-    width: 95%;
+    height: 100px;
+    width: 85%;
 }
 
 }
