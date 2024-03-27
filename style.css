@@ -945,6 +945,7 @@ footer{
 }
 
 
+
 /* ------------------------------------------ */
 /* Reponsive */
 /* ------------------------------------------ */
@@ -984,16 +985,15 @@ footer{
     }
     .homepage {
         height: 100vh; 
-
     }
     .article{
         width: 100%;
-        height: 80%;
+        height: 75%;
         flex-direction: column;
         justify-content: space-between;
     }
     .right-article{
-        width: 95%;
+        width: 100%;
         height: 100%;
         align-items: center;
         justify-content: space-around;
@@ -1005,14 +1005,16 @@ footer{
         position: absolute;
     }
     .right-article-title{
-        width: 90%;
-        font-size: 38px;
+        width: 80%;
+        font-size: 50px;
         font-weight: 900;
-        line-height: 50px;
+        line-height: 80px;
     }
     .right-article-p{
-        font-size: 14px;
-        line-height: 30px;
+        width: 80%;
+        font-size: 94%;
+        font-weight: 500;
+        line-height: 40px;
         color: #5C6574;
     }
 
@@ -1021,8 +1023,8 @@ footer{
     }
 
     .piscine-responsive{
-        width: 100%;
-        height: 200px;
+        width: 90%;
+        height: 35%;
         object-fit: cover;
         border-radius: 25px 10px 25px 10px;
     }
@@ -1033,19 +1035,20 @@ footer{
         display: none;
     }
     .feuille-1{
-        width: 380px;
-        height: 350px;
-        margin-top: 120px;
-        margin-left: -250px;
+        width: 390px;
+        height: 360px;
+        margin-top: 30%; 
+        margin-left: -80%; 
         transform: rotate(10deg);
 
     }
     .feuille-2{
-        width: 295px;
-        height: 280px;
-        margin-top: 170px;
-        margin-left: 150px;
+        width: 305px;
+        height: 290px;
+        margin-top: 45%; 
+        margin-left: 60%; 
         transform: rotate(0deg);
+
     }
     .feuille-3{
         width: 116px;
@@ -1055,22 +1058,22 @@ footer{
         display: none;
     }
     .right-article-btn{
-        width: 85%;
+        width: 75%;
         justify-content: space-between;
-        margin-right: 45px;
-        margin-top: -20px;
+        margin-right: 15%;
+        margin-top: 20px;
 
     }
     .right-article-piscine{
-        width: 200px;
+        width: 35%;
         height: 45px;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 400;
     }
     .right-article-projet{
-        width: 250px;
+        width: 45%;
         height: 45px;
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 400;
     }
 
@@ -1081,6 +1084,7 @@ footer{
 .forme{
     height: 2500px; 
     overflow: hidden;
+    padding-bottom: 60px;
 } 
 
 .h2-title{
@@ -1102,7 +1106,7 @@ footer{
     padding-bottom: 150px;
 }
 .forme-thumb-container{
-    width: 95%;
+    width: 75%;
     height: 500px;
     display: flex;
     flex-direction: column;
@@ -1110,8 +1114,8 @@ footer{
 }
 .img-art{
     position: absolute;
-    width: 230px;
-    height: 230px;
+    width: 250px;
+    height: 250px;
     margin: 0;
     margin-top: -20px;
 }
@@ -1131,20 +1135,20 @@ footer{
 }
 .art-feuille-1{
     margin-top: -2105px;
-    margin-right: 190px;
+    margin-right: 50%;
 }
 .art-feuille-2{
     margin-top: -2000px;
-    left: 80px;
+    left: 35%;
     transform: rotate(180deg);
 }
 .art-feuille-3{
     margin-top: 2180px;
-    left: 155px;
+    left: 55%;
 }
 .art-feuille-4{
     margin-top: 2100px;
-    margin-right: 250px;
+    margin-right: 55%;
     transform: rotate(180deg);
 }
 
@@ -1155,6 +1159,7 @@ footer{
 
 .dimension{
     height: 2100px; 
+    padding-bottom: 60px;
 }
 .dimension-ruler-title{
     font-size: 28px;
@@ -1222,6 +1227,7 @@ footer{
 
 .revetement{
     height: 2500px;
+    padding-bottom: 50px;
 }
 .R-container{
     height: 92%;
@@ -1230,11 +1236,12 @@ footer{
     justify-content: space-between;
     flex-wrap: nowrap;
     overflow: hidden;
+    align-items: center;
 }
 .R-thumb{
     flex-direction: column;
     min-width: 0;
-    width: 95%;
+    width: 75%;
     height: 500px;
     margin-top: 15px;
     border: solid 3px transparent;
@@ -1270,7 +1277,7 @@ footer{
 /* ------------------------------------------ */
 
 .options{
-    height: 2500px;
+    height: 2600px;
     overflow: hidden;
     position: relative;
     display: flex;
@@ -1278,6 +1285,7 @@ footer{
     align-items: center;
     justify-content: space-around;
     flex-wrap: nowrap;
+    padding-bottom: 90px;
 }
 .O-container{
     flex-direction: column;
@@ -1289,8 +1297,8 @@ footer{
 .option-thumb{
     flex-direction: column;
     align-items: center;
-    width: 95%;
-    height: 430px;
+    width: 75%;
+    height: 450px;
 }
 .R-title{
     width: 100%;
@@ -1356,23 +1364,23 @@ footer{
     z-index: 1;
 }
 .feuille-form-10{
-    margin-right: 180px;
+    margin-right: 60%;
     margin-top: -100px;
     z-index: -1;
 }
 .feuille-form-11{
-    margin-right: 190px;
+    margin-right: 75%;
     margin-top: 80px;
     z-index: -1;
 }
 .feuille-form-12{
     z-index: -1;
-    margin-right: -100px;
+    margin-right: -55%;
     margin-top: 390px;
 }
 .feuille-form-13{
     z-index: -1;
-    margin-right: -200px;
+    margin-right: -75%;
     margin-top: 600px;
 }
 .form-class{
@@ -1428,7 +1436,7 @@ footer{
 }
 .a-card{
     height: 100%;
-    width: 95%;
+    width: 100%;
     flex-direction: column;
     overflow: hidden;
     border: #F59518 3px solid;
@@ -1479,16 +1487,17 @@ footer{
 /* Footer-responsive */
 /* ------------------------------------------ */
 footer{
-    height: 800px;
+    height: 1200px;
 
 }
 .footer-container{
-    height: 90%;
+    height: 95%;
     width: 95%;
     flex-direction: column;
 }
 .footer-column-1{
     flex-direction: column;
+    align-items: center;
     width: 100%;
     height: 260px;
 }
@@ -1496,11 +1505,12 @@ footer{
     flex-direction: column;
 }
 .column-1-p{
-    font-size: 14px;
-    width: 100%;
+    font-size: 18px;
+    width: 90%;
     text-align: center;
 }
 .footer-column-2{
+    height: 220px;
     width: 100%;
     align-items: center;
 }
@@ -1510,7 +1520,7 @@ footer{
     align-items: center;
 }
 .hyper-link-footer{
-    font-size: 15px;
+    font-size: 16px;
 }
 .footer-column-3{
     width: 100%;
@@ -1523,13 +1533,26 @@ footer{
     width: 95%;
 }
 .mention-container{
-    height: 100px;
+    height: 250px;
     width: 85%;
+    align-items: center;
+}
+.mention-text{
+    width: 60%;
+    height: 50px;
+}
+.mentions-link{
+    width: 40%;
+    height: 50px;
+}
+.h6-footer{
+    font-size: 16px;
+}
 }
 
-}
 
-@media (max-width: 800px) {
+
+@media only screen and (max-width: 800px) {
 
     .piscine-responsive{
         display: block;
@@ -1634,4 +1657,32 @@ footer{
 }
 
 
+}
+
+@media only screen and (max-width: 320px) {
+    .homepage {
+        height: 720px; 
+        max-width: 320px;
+    }
+    .piscine-responsive{
+        width: 90%;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 25px 10px 25px 10px;
+        margin-top: -20px;
+    }
+    .right-article-title{
+        width: 84%;
+        font-size: 36px;
+    }   
+    .right-article-p{
+        width: 84%;
+        font-size: 13px;
+    }
+    .right-article-piscine{
+        font-size: 15px;
+    }
+    .right-article-projet{
+        font-size: 15px;
+    }
 }
